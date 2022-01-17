@@ -20,7 +20,7 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: "mj.ada.innovation-1.versent-innovation.au1.staxapp.cloud"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:

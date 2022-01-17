@@ -7,6 +7,8 @@ namespace: jx
 repositories:
 - name: jxgh
   url: https://jenkins-x-charts.github.io/repo
+- name: kuberhealthy
+  url: https://comcast.github.io/kuberhealthy/helm-repos
 releases:
 - chart: jxgh/jxboot-helmfile-resources
   version: 1.1.21
@@ -60,5 +62,7 @@ releases:
   values:
   - ../../versionStream/charts/jxgh/health-checks-jx/values.yaml.gotmpl
   - jx-values.yaml
+- chart: kuberhealthy/kuberhealthy
+  name: kuberhealthy
 templates: {}
 renderedvalues: {}
