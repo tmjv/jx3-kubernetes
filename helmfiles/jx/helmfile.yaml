@@ -8,7 +8,7 @@ repositories:
 - name: jxgh
   url: https://jenkins-x-charts.github.io/repo
 - name: kuberhealthy
-  url: https://comcast.github.io/kuberhealthy/helm-repos
+  url: https://kuberhealthy.github.io/kuberhealthy/helm-repos
 releases:
 - chart: jxgh/jxboot-helmfile-resources
   version: 1.1.21
