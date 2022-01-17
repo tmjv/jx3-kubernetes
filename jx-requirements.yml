@@ -17,16 +17,20 @@ spec:
     registry: ghcr.io
   environments:
   - key: dev
+    owner: tmjv
+    repository: jx3-kubernetes
   - key: staging
   - key: production
   ingress:
-    domain: "mj.ada.innovation-1.versent-innovation.au1.staxapp.cloud"
-    externalDNS: false
+    domain: mj.ada.innovation-1.versent-innovation.au1.staxapp.cloud
+    kind: ingress
     namespaceSubDomain: -jx.
     tls:
       email: ""
       enabled: false
       production: false
+  pipelineUser:
+    username: tmjv
   repository: bucketrepo
   secretStorage: local
   vault: {}
